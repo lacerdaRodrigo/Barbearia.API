@@ -135,3 +135,4 @@ C:\Estudos\C#\Barbearia\Barbearia.API\bin\Debug\net8.0\Microsoft.AspNetCore.Razo
 C:\Estudos\C#\Barbearia\Barbearia.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Estudos\C#\Barbearia\Barbearia.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Estudos\C#\Barbearia\Barbearia.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Estudos\C#\Barbearia\Barbearia.API\obj\Debug\net8.0\Barbearia.API.sourcelink.json
