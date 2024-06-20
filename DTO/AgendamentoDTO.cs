@@ -1,15 +1,17 @@
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
+using Barbearia.API.DTO;
+using Barbearia.API.Models;
 
-namespace Barbearia.API.Models
+namespace Barbearia.API.DTO
 {
-    public class Agendamento
+    public class AgendamentoDTO
     {
-        [Key]
+
         public int AgendamentoID { get; set; }
 
         [Required]
@@ -20,12 +22,13 @@ namespace Barbearia.API.Models
         [Required]
         public int Status { get; set; }
 
-        [Required]
-        public int ClienteID { get; set; }
-
         public Cliente Cliente { get; set; }
 
         public virtual ICollection<Servico> Servicos { get; set; }
 
     }
 }
+
+
+
+

@@ -9,9 +9,6 @@ namespace Barbearia.API.Controllers
 {
     [ApiController]
     [Route("Api/[controller]")]
-
-
-
     public class ClienteController : ControllerBase
     {
 

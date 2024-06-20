@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YTEbOA7XPnEinB9zzEKxzoMupfH8rZE/0TalvlCCCdYgaqYNtPkCSMCLZ0cnuy9gpgGEUE4jAUdqUhq1de/zow==",
+  "dgSpecHash": "9tNkt87WBRyqnsjp/PrPy/QNepFU4H86gSuLJwcaatwy/ulbAraxUHHDpAk4JdvDUC+tcyFs2n5fNS172q9TCQ==",
   "success": true,
-  "projectFilePath": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
+  "projectFilePath": "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodrigo Lacerda\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Rodrigo Lacerda\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

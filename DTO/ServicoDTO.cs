@@ -1,15 +1,16 @@
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Barbearia.API.DTO;
 
-namespace Barbearia.API.Models
+namespace Barbearia.API.DTO
 {
-    public class Servico
+    public class ServicoDTO
     {
-        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Favor colocar um nome para o serviço")]
@@ -25,7 +26,9 @@ namespace Barbearia.API.Models
         [Range(0.01, 999.00, ErrorMessage = "Preço deve ficar entre 0.01 ate 999.00")]
         public double Preco { get; set; }
 
-
-
     }
 }
+
+
+
+

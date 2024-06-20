@@ -23,9 +23,6 @@ namespace Barbearia.API.DTO
         [Required]
         [Display(Name = "Data Nascimento")]
         public DateTime DataNascimento { get; set; }
-
-
-
     }
 }
 
