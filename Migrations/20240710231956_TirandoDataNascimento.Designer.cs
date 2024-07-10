@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Barbearia.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240514011955_PrimeiroMigration")]
-    partial class PrimeiroMigration
+    [Migration("20240710231956_TirandoDataNascimento")]
+    partial class TirandoDataNascimento
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,9 +60,6 @@ namespace Barbearia.API.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteId"));
-
-                    b.Property<DateTime>("DataNascimento")
-                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
                         .IsRequired()

@@ -5,7 +5,7 @@
 namespace Barbearia.API.Migrations
 {
     /// <inheritdoc />
-    public partial class TitandoDataNascimento : Migration
+    public partial class TirandoDataNascimento : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

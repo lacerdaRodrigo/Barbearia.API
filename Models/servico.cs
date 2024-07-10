@@ -22,6 +22,7 @@ namespace Barbearia.API.Models
         [Range(10, 999, ErrorMessage = "A duração precisa ficar de 10 ate 999.")]
         public int DuracaoMin { get; set; }
 
+
         [Range(0.01, 999.00, ErrorMessage = "Preço deve ficar entre 0.01 ate 999.00")]
         public double Preco { get; set; }
 

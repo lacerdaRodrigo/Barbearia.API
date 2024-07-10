@@ -15,7 +15,7 @@ namespace Barbearia.API.DTO
         public int AgendamentoID { get; set; }
 
         [Required]
-        public DateTime DataHora { get; set; }
+        public DateTime Data { get; set; }
 
         public string Observacoes { get; set; }
 

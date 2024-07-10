@@ -86,7 +86,7 @@ namespace Barbearia.API.Controllers
 
                 agendamento.ClienteID = agendamentoDTO.ClienteID;
                 agendamento.Observacoes = agendamentoDTO.Observacoes;
-                agendamento.DataHora = agendamentoDTO.DataHora;
+                agendamento.Data = agendamentoDTO.Data;
 
                 agendamento.Servicos = new List<Servico>();
                 agendamento.Cliente = _dbContext.Clientes.Find(agendamento.ClienteID);

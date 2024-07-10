@@ -14,7 +14,7 @@ namespace Barbearia.API.Models
 
 
         [Required]
-        public DateTime DataHora { get; set; }
+        public DateTime Data { get; set; }
 
         public string Observacoes { get; set; }
 

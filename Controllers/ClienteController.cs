@@ -47,7 +47,6 @@ namespace Barbearia.API.Controllers
                 cliente.Nome = clienteDTO.Nome;
                 cliente.Telefone = clienteDTO.Telefone;
                 cliente.Email = clienteDTO.Email;
-                //cliente.DataNascimento = clienteDTO.DataNascimento;
 
                 _dbContext.Clientes.Add(cliente);
                 await _dbContext.SaveChangesAsync();
@@ -76,7 +75,7 @@ namespace Barbearia.API.Controllers
                 cliente.Nome = clienteDTO.Nome;
                 cliente.Telefone = clienteDTO.Telefone;
                 cliente.Email = clienteDTO.Email;
-                //cliente.DataNascimento = clienteDTO.DataNascimento;
+                
 
                 _dbContext.Update(cliente);
                 await _dbContext.SaveChangesAsync();
