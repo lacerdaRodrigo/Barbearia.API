@@ -87,7 +87,7 @@ namespace Barbearia.API.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var servico = await _dbContext.Servicos.FindAsync(id);
-            if(servico == null)
+            if (servico == null)
             {
                 return NotFound();
             }

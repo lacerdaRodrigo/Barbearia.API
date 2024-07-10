@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj": {}
+    "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj": {}
   },
   "projects": {
-    "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj": {
+    "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
+        "projectUniqueName": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
         "projectName": "Barbearia.API",
-        "projectPath": "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
+        "projectPath": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\Barbearia.API.csproj",
         "packagesPath": "C:\\Users\\Rodrigo Lacerda\\.nuget\\packages\\",
-        "outputPath": "c:\\Estudos\\C#\\Barbearia\\Barbearia.API\\obj\\",
+        "outputPath": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rodrigo Lacerda\\AppData\\Roaming\\NuGet\\NuGet.Config"

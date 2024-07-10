@@ -20,9 +20,9 @@ namespace Barbearia.API.DTO
         [EmailAddress(ErrorMessage = "Favor digitar um email valido.")]
         public string Email { get; set; }
 
-        [Required]
-        [Display(Name = "Data Nascimento")]
-        public DateTime DataNascimento { get; set; }
+        // [Required]
+        // [Display(Name = "Data Nascimento")]
+        // public DateTime DataNascimento { get; set; }
     }
 }
 

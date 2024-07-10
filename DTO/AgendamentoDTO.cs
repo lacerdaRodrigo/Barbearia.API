@@ -22,6 +22,9 @@ namespace Barbearia.API.DTO
         [Required]
         public int Status { get; set; }
 
+        [Required]
+        public int ClienteID { get; set; }
+
         public Cliente Cliente { get; set; }
 
         public virtual ICollection<Servico> Servicos { get; set; }

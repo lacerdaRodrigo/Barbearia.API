@@ -47,7 +47,7 @@ namespace Barbearia.API.Controllers
                 cliente.Nome = clienteDTO.Nome;
                 cliente.Telefone = clienteDTO.Telefone;
                 cliente.Email = clienteDTO.Email;
-                cliente.DataNascimento = clienteDTO.DataNascimento;
+                //cliente.DataNascimento = clienteDTO.DataNascimento;
 
                 _dbContext.Clientes.Add(cliente);
                 await _dbContext.SaveChangesAsync();
@@ -76,7 +76,7 @@ namespace Barbearia.API.Controllers
                 cliente.Nome = clienteDTO.Nome;
                 cliente.Telefone = clienteDTO.Telefone;
                 cliente.Email = clienteDTO.Email;
-                cliente.DataNascimento = clienteDTO.DataNascimento;
+                //cliente.DataNascimento = clienteDTO.DataNascimento;
 
                 _dbContext.Update(cliente);
                 await _dbContext.SaveChangesAsync();
@@ -91,7 +91,7 @@ namespace Barbearia.API.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var cliente = await _dbContext.Clientes.FindAsync(id);
-            if(cliente == null)
+            if (cliente == null)
             {
                 return NotFound();
             }

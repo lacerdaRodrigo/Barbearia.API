@@ -12,6 +12,7 @@ namespace Barbearia.API.Models
         [Key]
         public int AgendamentoID { get; set; }
 
+
         [Required]
         public DateTime DataHora { get; set; }
 
@@ -23,9 +24,12 @@ namespace Barbearia.API.Models
         [Required]
         public int ClienteID { get; set; }
 
+        
         public Cliente Cliente { get; set; }
 
+
         public virtual ICollection<Servico> Servicos { get; set; }
+
 
     }
 }
