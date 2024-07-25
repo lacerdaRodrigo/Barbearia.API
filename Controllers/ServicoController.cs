@@ -27,7 +27,7 @@ namespace Barbearia.API.Controllers
 
         [HttpGet("id:int")]
         public async Task<ActionResult<Servico>> GetById(int id)
-        {
+        { 
             var servico = await _dbContext.Servicos.FindAsync(id);
             if (servico == null)
             {

@@ -1,0 +1,32 @@
+﻿@page "/ServicosPorId"
+@using Front.NovaPasta1
+@inject HttpClient httpClient
+
+<h3>Consulta por Servicos ID</h3>
+
+<input class="form-control" @bind-value=servicosId />
+<button @onclick="ConsumirApi" class="btn btn-primary ">Consumir Api</button>
+
+<div>
+    @s.id<br />
+    @s.title<br />
+
+</div>
+
+@code {
+    int servicosId;
+    Servico? s = new();
+
+    private async Task ConsumirApi()
+    {
+
+        var c = await httpClient.GetAsync($"https://localhost:7011/api/Servico/id:int?id={servicosId}");
+
+        if (c.IsSuccessStatusCode)
+        {
+             s = await c.Content.ReadFromJsonAsync<Servico>();
+
+        }
+
+    }
+}

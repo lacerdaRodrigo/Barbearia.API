@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\obj\\Debug\\net8.0\\compressed\\p5lvxwfils.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\front.styles.css",
+      "PackagePath": "staticwebassets\\front.styles.css"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\obj\\Debug\\net8.0\\service-worker-assets.js",
+      "PackagePath": "staticwebassets\\service-worker-assets.js"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\obj\\Debug\\net8.0\\service-worker\\service-worker.published.js",
+      "PackagePath": "staticwebassets\\service-worker.js"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\icon-512.png",
+      "PackagePath": "staticwebassets\\icon-512.png"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\manifest.webmanifest",
+      "PackagePath": "staticwebassets\\manifest.webmanifest"
+    },
+    {
+      "Id": "C:\\Estudos\\C#\\Barbearia\\Barbearia.API\\front\\front\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.front.props",
+      "PackagePath": "build\\front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.front.props",
+      "PackagePath": "buildMultiTargeting\\front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.front.props",
+      "PackagePath": "buildTransitive\\front.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.front.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
