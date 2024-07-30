@@ -1,0 +1,40 @@
+﻿@page "/ServicosPorId"
+@using FrontBarbearia.NovaPasta
+@inject HttpClient httpClient
+
+<h3>ServicosPorId</h3>
+
+<div>
+    informe um ID
+    <input @bind-value=servicosId/>
+</div>
+
+<button @onclick="ConsumirApi" class="btn btn-primary">
+    Consumir Api
+</button>
+
+<div>
+    @s.id<br />
+    @s.title<br />
+    @s.description<br />
+</div>
+
+
+@code {
+    int servicosId;
+    Servicos? s = new();
+
+
+    private async Task ConsumirApi()
+    {
+        var response = await httpClient.GetAsync($"https://dummyjson.com/products/{servicosId}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            s = await response.Content.ReadFromJsonAsync<Servicos>();
+
+        }
+
+    }
+
+}
