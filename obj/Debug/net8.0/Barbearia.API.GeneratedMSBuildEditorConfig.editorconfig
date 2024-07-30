@@ -17,27 +17,3 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Estudos\C#\Barbearia\Barbearia.API
 build_property._RazorSourceGeneratorDebug = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/App.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxBcHAucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/Pages/ServicosPorId.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxQYWdlc1xTZXJ2aWNvc1BvcklkLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Estudos/C\#/Barbearia/Barbearia.API/Front-Barbearia/Front-Barbearia/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = RnJvbnQtQmFyYmVhcmlhXEZyb250LUJhcmJlYXJpYVxfSW1wb3J0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
